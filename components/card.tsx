@@ -87,7 +87,7 @@ export function CardItem({ card, onEdit, onDelete }: { card: Card; onEdit: () =>
             "rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow border",
             categoryStyle
         )}>
-            <div className="flex justify-between items-start mb-4">
+            <div className="flex justify-between items-start gap-4 mb-4">
                 <div className="flex flex-col gap-2">
                     <h2 className="text-xl font-bold font-mono">{card.command}</h2>
                     <span className="text-xs text-muted-foreground">
